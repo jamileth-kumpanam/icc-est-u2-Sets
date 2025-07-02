@@ -15,44 +15,30 @@
 •⁠  ⁠Profesor: Ing. Pablo Torres
 
 ---
-# Ejercicios de Ordenamiento con Stack en Java
+# 🌱 Ejercicios con `Set` en Java
 
-Este proyecto contiene la implementación de algoritmos para *ordenar pilas (⁠ Stack<Integer> ⁠)* en Java usando solo estructuras tipo pila (⁠ Stack ⁠). Los ejercicios están diseñados para practicar estructuras de datos y algoritmos sin utilizar listas, arreglos u otras colecciones.
+Este proyecto contiene ejemplos prácticos del uso de diferentes tipos de `Set` en Java, incluyendo:
 
----
+- `HashSet`
+- `LinkedHashSet`
+- `TreeSet`
+- `TreeSet` con comparador personalizado (por longitud)
+- `TreeSet` con comparador personalizado inverso (longitud descendente)
 
-## 🧠 Ejercicio 01: Ordenar un Stack en orden ascendente
-
-Ordenar una pila de forma que los elementos más *pequeños queden en el tope* de la pila.  
-Se permite usar *una pila adicional, pero **no se pueden usar otras estructuras de datos*.
-
-### ✅ Ejemplo:
-*Input:*  
-⁠ (tope) 5 -> 1 -> 4 -> 2 ⁠  
-*Output esperado:*  
-⁠ (tope) 1 -> 2 -> 4 -> 5 ⁠
+Todos los ejercicios utilizan los mismos datos y sirven para observar cómo cambia el comportamiento del conjunto según la implementación elegida.
 
 ---
 
-## 🧠 Ejercicio 02: Ordenar un Stack en orden descendente (opcional)
+## 📌 Datos de entrada
 
-Ordenar la pila de forma que los elementos más *grandes queden en el tope*.  
-El proceso es similar al ejercicio anterior, con una simple modificación en la comparación.
+Se utilizan estas palabras para todos los ejemplos:
 
-### ✅ Ejemplo:
-*Input:*  
-⁠ (tope) 5 -> 1 -> 4 -> 2 ⁠  
-*Output esperado:*  
-⁠ (tope) 5 -> 4 -> 2 -> 1 ⁠
+```java
+"Laptop", "Manzana", "Pera", "Celular", "Laptop", "Pera", "Celulas"
 
----
-### Ejecución:
-Compila y ejecuta las clases ⁠ StackSorterAscendente ⁠ y ⁠ StackSorterDescendente ⁠ para ver el resultado.
 
----
+### ✅ Ejemplo de salida:
+[Celular, Pera, Laptop, Manzana]
 
-## 💻 Créditos
-
-Desarrollado como parte de ejercicios de práctica de estructuras de datos.
-
+![alt text](image-1.png)
 ![alt text](image.png)

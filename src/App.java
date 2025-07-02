@@ -1,7 +1,6 @@
-import java.util.HashSet;
-import java.util.Set;
-
+import controller.ContactoController;
 import controller.Sets;
+import java.util.Set;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -11,6 +10,11 @@ public class App {
         runTreeSet(sets);
         runTreeSets(sets);
         runTreeSetReversa(sets);
+
+        ContactoController contactoController = new ContactoController();
+
+        contactoController.imprimirPorApellidoYTelefonoDesc();
+        contactoController.imprimirPorNombre(); 
     }
 
     public static void runHashSet(Sets sets) {
@@ -40,8 +44,6 @@ public class App {
         System.out.println("Elementos del TreeSet (orden por longitud)");
         System.out.println(palabrasTreeSetConComparador);
     }
-
-    //imprimir al reves
 
     private static void runTreeSetReversa(Sets sets) {
         Set<String> palabrasTreeSetReversa = sets.construirTreeSetConComparadorReversa();
